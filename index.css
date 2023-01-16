@@ -1,0 +1,490 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+nav {
+  display: flex;
+}
+.items {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 30px;
+  padding: 10px 10px;
+  font-size: 18px;
+  margin-left: 2rem;
+}
+li > a {
+  text-decoration: none;
+  color: white;
+}
+.items > li > a:hover{
+  /* color: red; */
+  font-weight: bold;
+ 
+
+}
+nav {
+  height: 6%;
+  background-color: #333;
+}
+
+.content {
+  background: url("https://c0.wallpaperflare.com/preview/810/192/51/adult-band-black-and-white-concert.jpg");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  height: 120vh;
+  background-size: 100%;
+}
+.centerText {
+  color: white;
+}
+.textcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 17rem;
+}
+.headingTune {
+  font-size: 45px;
+  word-spacing: -17px;
+}
+
+.tuneText1 {
+  margin-top: 2rem;
+  font-size: 27px;
+  font-weight: bold;
+}
+.tuneText2 {
+  margin-top: 3rem;
+  font-size: 20px;
+}
+.tuneText3 {
+  margin-top: 10px;
+  font-size: 19px;
+}
+.content2 {
+  background-color: #252529;
+  height: 150vh;
+}
+
+.musicSection {
+  color: white;
+}
+.musicName {
+  margin-top: 3rem;
+  font-size: 50px;
+  font-weight: bold;
+}
+.musicLogo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.musicText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+.musicHeading {
+  font-size: 40px;
+  margin: 2.5rem 0px;
+  font-weight: 800;
+}
+.firstline {
+  width: 80vw;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 700;
+}
+.midline {
+  font-size: 21px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+.firstbtn {
+  padding: 15px;
+  background-color: rgb(234, 34, 34);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 3rem;
+}
+.firstbtn > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 14px;
+}
+.endline {
+  width: 40vw;
+  margin: auto;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.musicimage {
+  display: flex;
+  margin: auto;
+  margin-top: 1rem;
+  width: 70vw;
+}
+
+.collectionHeading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+.collectionHead {
+  font-size: 35px;
+}
+.firstCol-Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  font-size: 20px;
+  word-spacing: 5px;
+  margin-top: 1.5rem;
+}
+.end-Col-Text {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.secondbtn {
+  background-color: navy;
+}
+.secondbtn > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 14px;
+}
+.repeatImg {
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.nightbackground {
+  background: url("https://wallpapersmug.com/download/1920x1080/3b3e80/clear-sky-sky-blue-stars-8k.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 65vh;
+  opacity: 0.9;
+  margin-top: 50px;
+}
+
+.textscontain {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headofnight {
+  margin-top: 14rem;
+  font-size: 35px;
+}
+
+.nightpara {
+  width: 76vw;
+  word-spacing: 6px;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.carditems {
+  display: grid;
+  grid-template-columns: 40vw 50vw;
+  gap: 4rem;
+}
+
+.cardimg {
+  width: 35vw;
+}
+.name {
+  margin-top: 4rem;
+  font-size: 25px;
+}
+.cardtext {
+  width: 33vw;
+  margin-top: 2rem;
+  word-spacing: 2px;
+  font-size: 17px;
+}
+.cardtext2 {
+  margin-top: 2rem;
+  font-size: 17px;
+  margin-bottom: 2rem;
+}
+.redeemlink {
+  text-decoration: none;
+  font-weight: bold;
+  color: #5f5fff;
+}
+
+.lastcontent {
+  background-color: #252529;
+  height: 40vh;
+}
+
+.firstrowname > ul {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  list-style: none;
+  justify-content: center;
+  gap: 70px;
+}
+.firstrowname > ul > li {
+  margin-top: 5rem;
+  color: white;
+  border-bottom: 1px solid gray;
+  text-align: center;
+  font-size: 19px;
+
+  padding-bottom: 12px;
+}
+.firstnamecol-1 {
+  color: white;
+  margin-left: 16rem;
+  margin-top: 14px;
+  display: flex;
+}
+.list1 {
+  list-style: none;
+  width: 7vw;
+}
+.list1 > li {
+  padding-bottom: 10px;
+}
+.list2 {
+  list-style: none;
+  margin-left: 10.5rem;
+}
+.list2 > li {
+  padding-bottom: 10px;
+}
+
+.footertext {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 7vh;
+  color: white;
+}
+
+
+@media (max-width:800px) {
+  body{
+    width: 100%;
+  }
+  .repeatImg{
+    width: 80%;
+  }
+  
+  .items{
+    margin-left: 0rem;
+    gap: 10px;
+    font-size: 15px;
+  }
+  .textcontainer{
+    position: relative;
+    top: 2rem;
+   
+  }
+  .headingTune{
+    font-size: 30px;
+    word-spacing: 1px;
+   
+  }
+  .tuneText1{
+    font-size: 22px;
+    margin-top: 15px;
+  }
+  .tuneText2{
+    display: none;
+  }
+ 
+  .tuneText3{
+    display: none;
+  }
+
+  nav{
+   height: 5vh;
+
+  }
+  
+
+  .content{
+    background-size: 100% 40%;
+    height: 111vh;
+
+  }
+  .content2{
+    margin-top: -32rem;
+  }
+  .musicName{
+   font-size: 30px;
+  }
+  .musicHeading{
+    font-size: 30px;
+    width: 80%;
+    text-align: center;
+  }
+  .firstline{
+    font-size: 18px;
+  }
+  .midline{
+    width: 80vw;
+    font-size: 18px;
+  }
+  .response{
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 17px;
+
+  }
+  .endline{
+    width: 70vw;
+    /* font-size: 18px; */
+
+  }
+  .musicimage{
+    width: 100vw;
+    margin-top: 2rem;
+
+  }
+  .content2{
+    height: 135vh;
+  }
+  .collectionHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 95vw;
+    text-align: center;
+  }
+  .end-Col-Text{
+    width: 85vw;
+  }
+  .repeatImg{
+    width: 85%;
+  }
+  .headofnight{
+    margin-top: 1rem;
+    font-size: 30px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .nightbackground{
+    background-size: 100% 100%;
+    height: 100vh;
+  }
+  .nightpara{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    margin-top: 2rem;
+  }
+
+  
+  .carditems{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .cardimg{
+    width: 80vw;
+    margin: auto;
+    margin-top: 4rem;
+  }
+  .name{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .cardtext{
+    width: 90vw;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: start;
+    margin: auto;
+    margin-top: 2rem;
+    text-align:left ;
+  }
+  .cardtext2{
+    width: 85vw;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 3rem;
+
+  }
+  .redeemlink{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .footertext{
+    width: 100%;
+  }
+  .lastcontent{
+    height: 45vh;
+    margin-top: 2rem;
+  }
+  .firstnamecol-1{
+    margin-left: 0rem;
+  }
+ 
+  .firstrowname > ul {
+    gap: 10px;
+    grid-template-columns: 70px 70px 70px 70px;
+  }
+  .firstrowname > ul > li{
+    font-size: 12px;
+  }
+  .list1{
+    margin-left: 2rem;
+    font-size: 12px;
+  }
+  .list2{
+    margin-left: 4rem;
+    font-size: 12px;
+    
+
+  }
+  .resList3{
+    margin-left: 1rem;
+  }
+  .resList4{
+    margin-left: 0rem;
+  }
+
+}
